@@ -4,7 +4,10 @@ const blueTeam = [
     realName: "Scott Summers",
     powers: ["Optic Blast", "Energy Resistance"],
     teamRole: "Team Leader",
-    imageURL: "",
+    imageURL:
+      "https://static.wikia.nocookie.net/all-worlds-alliance/images/a/ac/Uncanny_Cyclops_Portrait_Art.png",
+    cardImageURL:
+      "https://i.pinimg.com/originals/02/c9/0e/02c90eb2c1468163262cef43424513fc.jpg",
     heightFeet: 6,
     heightInches: 3,
     weight: 195,
@@ -13,14 +16,12 @@ const blueTeam = [
   },
   {
     name: "Wolverine",
-    realName: "James Logan",
-    powers: [
-      "Regenerative Healing",
-      "Superhuman Senses, Agility, Stamina, and Strength",
-      "Adamantium Claws",
-    ],
+    realName: 'James "Logan" Howlett',
+    powers: ["Regenerative Healing", "Superhuman Senses", "Adamantium Claws"],
     teamRole: "Brawler",
-    imageURL: "",
+    imageURL:
+      "https://static.wikia.nocookie.net/characterprofile/images/5/5b/Wolverine_Portrait_Art.png",
+    cardImageURL: "https://artfiles.alphacoders.com/102/thumb-1920-102505.jpg",
     heightFeet: 5,
     heightInches: 3,
     weight: 300,
@@ -32,7 +33,8 @@ const blueTeam = [
     realName: "Elizabeth Braddock",
     powers: ["Telekinesis", "Telepathy", "Precognition"],
     teamRole: "Assassin",
-    imageURL: "",
+    imageURL: "./psylocke.png",
+    cardImageURL: "https://i.redd.it/lpsq92oq1pc11.jpg",
     heightFeet: 6,
     heightInches: 0,
     weight: 155,
@@ -42,13 +44,12 @@ const blueTeam = [
   {
     name: "Beast",
     realName: "Hank McCoy",
-    powers: [
-      "Superhuman Strength, Speed, Stamina, Durability, Agility, Dexterity, and Senses",
-      "Genius-level Intellect",
-      "Claws and Fangs",
-    ],
+    powers: ["Superhuman Agility", "Genius-level Intellect", "Claws and Fangs"],
     teamRole: "Utility",
-    imageURL: "",
+    imageURL:
+      "https://static.wikia.nocookie.net/vsbattles/images/3/38/Blue_Beast_MC_TR.png",
+    cardImageURL:
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/41eb7813-f4e0-4419-af51-71555783e634/d8ygau3-da63fbed-e2e1-46b5-a3ff-a976e58a4e7f.jpg/v1/fill/w_900,h_1220,q_75,strp/x_men__beast_by_artoftu_d8ygau3-fullview.jpg",
     heightFeet: 5,
     heightInches: 11,
     weight: 402,
@@ -58,9 +59,12 @@ const blueTeam = [
   {
     name: "Rogue",
     realName: "Anna Marie",
-    powers: ["Power Absorption", "Flight", "Strength"],
+    powers: ["Power Absorption", "Flight", "Superhuman Strength"],
     teamRole: "Rescue",
-    imageURL: "",
+    imageURL:
+      "https://static.miraheze.org/animatedmusclewomenwiki/f/fd/Rogue_%28Anna_Marie%29_in_Marvel_Avengers_Alliance_001.png",
+    cardImageURL:
+      "https://i.pinimg.com/564x/3c/6e/04/3c6e04c0800ba945680ef50cf7701410.jpg",
     heightFeet: 5,
     heightInches: 8,
     weight: 120,
@@ -71,8 +75,11 @@ const blueTeam = [
     name: "Gambit",
     realName: "Remy Lebeau",
     powers: ["Molecular Acceleration", "Static Interference", "Hypnotic Charm"],
-    teamRole: "Support",
-    imageURL: "",
+    teamRole: "Explosives",
+    imageURL:
+      "https://static.wikia.nocookie.net/vsbattles/images/8/8e/W35wrewrtgesrtregtqt64732547e623r45w76erg67rf32g6gfbuysdwfgui.png",
+    cardImageURL:
+      "https://i.pinimg.com/originals/c6/b3/80/c6b380ec40c52456a53ff086839c8d7a.jpg",
     heightFeet: 6,
     heightInches: 1,
     weight: 179,
@@ -80,3 +87,5 @@ const blueTeam = [
     hairColor: "Brown",
   },
 ];
+
+export default blueTeam;
