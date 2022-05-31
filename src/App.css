@@ -39,7 +39,7 @@ hr {
   justify-content: space-around;
 }
 
-.sinister {
+.flipped {
   transform: scaleX(-1);
 }
 

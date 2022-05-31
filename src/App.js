@@ -18,7 +18,12 @@ function App() {
                 src={villain.imageURL}
                 alt={villain.name}
                 height="300"
-                className={villain.name === "Mister Sinister" ? "sinister" : ""}
+                className={
+                  villain.name === "Mister Sinister" ||
+                  villain.name === "Juggernaut"
+                    ? "flipped"
+                    : ""
+                }
               />
               <h5>{villain.name}</h5>
             </div>
