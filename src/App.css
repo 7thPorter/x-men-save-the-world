@@ -31,6 +31,8 @@ hr {
   font-size: 3rem;
   color: #152238;
   text-shadow: gold 0px 0px 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .hero-lineup {
@@ -77,4 +79,12 @@ big {
 span {
   font-size: 1.05em;
   font-family: Georgia, serif;
+}
+
+.team-member > img {
+  height: 30vh;
+}
+
+.team-member > h5 {
+  margin-top: 0px;
 }

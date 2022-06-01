@@ -44,7 +44,7 @@ const XMenTeam = () => {
       <div className="hero-lineup">
         {blueTeam.map((member) => {
           return (
-            <div>
+            <div className="team-member">
               <img src={member.imageURL} alt={member.name} height="300" />
               <h5>{member.name}</h5>
             </div>
