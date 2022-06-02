@@ -47,7 +47,7 @@ const goldTeam = [
   {
     name: "Phoenix",
     realName: "Jean Grey",
-    powers: ["Telepathy", "Telekinesis"],
+    powers: ["Telepathy", "Telekinesis", "Empathy"],
     teamRole: "Control",
     imageURL: "https://freepngimg.com/thumb/xmen/20689-8-jean-grey.png",
     cardImageURL:
@@ -76,7 +76,7 @@ const goldTeam = [
   {
     name: "Forge",
     realName: "Unknown",
-    powers: ["Intuitive Genius", "Sorcery"],
+    powers: ["Intuitive Genius", "Uncanny Mechanist", "Sorcery"],
     teamRole: "Support",
     imageURL:
       "https://upload.wikimedia.org/wikipedia/en/8/80/Forge_%28Marvel_Comics_character%29.png",
