@@ -40,13 +40,7 @@ function App() {
             <span className="hp-words">Villainous Hit Points</span>
           </span>
         </div>
-      <hr />
-      <h2>Professor X, call in your team!</h2>
-      <img
-        src="https://i.pinimg.com/originals/0d/76/0c/0d760ca92cae02f312e999911fcf3e2f.png"
-        alt="Professor X from the X-Men"
-        height="300"
-      />
+      <br />
       <XMenTeam />
     </main>
   );
