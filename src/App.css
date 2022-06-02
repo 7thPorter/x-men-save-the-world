@@ -88,3 +88,128 @@ span {
 .team-member > h5 {
   margin-top: 0px;
 }
+
+.domination-bar {
+  background-color: grey;
+  width: 60%;
+  height: 25px;
+  border-radius: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.dom-completion {
+  background-color: rgb(90, 13, 60);
+  margin-top:1px;
+  height: 90%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s;
+
+}
+
+.dom-words {
+  margin-left: 10px;
+  color: blanchedalmond;
+  text-shadow: -1px 0px 3px black;
+  position: absolute;
+}
+
+.health-bar {
+  background-color: grey;
+  width: 60%;
+  height: 25px;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+
+}
+
+.hp-depletion {
+  background-color: rgb(121, 17, 17);
+  margin-top:1px;
+  height: 90%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s;
+}
+
+.hp-words {
+  margin-left: 10px;
+  color: blanchedalmond;
+  text-shadow: -1px 0px 3px black;
+  position: absolute;
+}
+
+.attack-button {
+  line-height: 70px;
+  text-align: center;
+  align-self: center;
+  height: 70px;
+  width: 20%;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+  margin: 15px;
+}
+
+.attack-button > span {
+  font-family: Verdana, sans-serif;
+  z-index: 5;
+  color: rgb(21, 34, 56);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.attack-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(21, 34, 56, 0.7);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.attack-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(21, 34, 56, 0.7);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.attack-button:hover::before {
+  transform: rotate(-45deg);
+}
+
+.attack-button:hover::after {
+  transform: rotate(45deg);
+}

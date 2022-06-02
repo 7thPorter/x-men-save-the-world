@@ -4,6 +4,9 @@ const XMenTeam = () => {
   return (
     <section className="x-men-team">
       <h1>BLUE TEAM</h1>
+      <div className="attack-button">
+        <span>ATTACK</span>
+      </div>
       <div className="team-member-card">
         <img src={blueTeam[0].cardImageURL} alt={blueTeam[0].name} />
         <div>
@@ -44,7 +47,7 @@ const XMenTeam = () => {
       <div className="hero-lineup">
         {blueTeam.map((member) => {
           return (
-            <div className="team-member">
+            <div className="team-member" key={member.name}>
               <img src={member.imageURL} alt={member.name} height="300" />
               <h5>{member.name}</h5>
             </div>

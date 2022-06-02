@@ -2,7 +2,7 @@ const blueTeam = [
   {
     name: "Cyclops",
     realName: "Scott Summers",
-    powers: ["Optic Blast", "Energy Resistance"],
+    powers: ["Optic Blast", "Energy Resistance", "Uncanny Spatial Awareness"],
     teamRole: "Team Leader",
     imageURL:
       "https://static.wikia.nocookie.net/all-worlds-alliance/images/a/ac/Uncanny_Cyclops_Portrait_Art.png",
@@ -48,8 +48,7 @@ const blueTeam = [
     teamRole: "Utility",
     imageURL:
       "https://static.wikia.nocookie.net/vsbattles/images/3/38/Blue_Beast_MC_TR.png",
-    cardImageURL:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/41eb7813-f4e0-4419-af51-71555783e634/d8ygau3-da63fbed-e2e1-46b5-a3ff-a976e58a4e7f.jpg/v1/fill/w_900,h_1220,q_75,strp/x_men__beast_by_artoftu_d8ygau3-fullview.jpg",
+    cardImageURL: "https://i.pinimg.com/originals/2f/e1/d2/2fe1d26877025daddad3c6bf38d49cee.jpg",
     heightFeet: 5,
     heightInches: 11,
     weight: 402,

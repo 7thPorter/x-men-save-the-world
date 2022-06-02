@@ -13,7 +13,7 @@ function App() {
       <section>
         {villains.map((villain) => {
           return (
-            <div>
+            <div key={villain.name}>
               <img
                 src={villain.imageURL}
                 alt={villain.name}
@@ -30,6 +30,16 @@ function App() {
           );
         })}
       </section>
+        <div className="domination-bar">
+          <span className="dom-completion" style={{width: "0%"}}>
+            <span className="dom-words">World Domination</span>
+          </span>
+        </div>
+        <div className="health-bar">
+          <span className="hp-depletion" style={{width: "100%"}}>
+            <span className="hp-words">Villainous Hit Points</span>
+          </span>
+        </div>
       <hr />
       <h2>Professor X, call in your team!</h2>
       <img
